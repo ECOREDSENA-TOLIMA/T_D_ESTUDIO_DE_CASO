@@ -2,13 +2,18 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 15%
+    right: 80%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 80%
+    right: 75%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 20%
+    right: 25%
 
 
 @keyframes float1
@@ -17,3 +22,92 @@
 
   100%
     transform: translateY(0px)
+
+.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
+  color: #fff !important
+
+.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
+  color: #fff !important
+
+.boton *, .boton--sm *
+  color: #fff !important
+
+@media only screen and (width: 768px) 
+  .col-ipad
+    margin-right: 5rem !important
+    width: 80%
+
+  .bg--gradientBlue, .slyder-b__slyde
+    .row
+      margin-right: 5rem !important
+      width: 80% 
+
+@media only screen and (min-width: 390px) and (max-width: 391px)
+  .col-ipad
+    margin-right: 5rem !important
+    width: 80%
+
+  .bg--gradientBlue, .slyder-b__slyde
+    .row
+      margin-right: 5rem !important
+      width: 80%
+
+@media only screen and (width: 768px) 
+  .col-ipad
+    margin-right: 5rem !important
+    width: 80%
+@media only screen and (min-width: 390px) and (max-width: 391px)
+  .col-ipad
+    margin-right: 5rem !important
+    width: 80%
+
+@media (min-width: 992px)
+  .desktop 
+    display: inline
+  .movil 
+    display: none
+@media (max-width: 991px)
+  .movil 
+    display: inline
+  .desktop 
+    display: none
+
+.tema1
+  .lista-ol--cuadro__vineta
+    color: #000 !important
+    font-weight: bold
+
+  .slyder-f__btn i
+    color: $color-acento-botones
+
+  .linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+    background-color: $color-acento-botones
+    color: #fff
+
+  .linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__content 
+    background-color: #CDF5E2
+
+  .tarjeta--gris
+    background-color: #DBE5F3
+
+  .bg
+    &-c8
+      position: relative
+      left: -2%
+      h3
+        color: #12263F
+      @media screen and ( max-width: $bp-max-lg )
+        left: -3%
+      @media screen and ( max-width: $bp-max-sm )
+        left: -4%
+
+  .bg
+    &-c9
+      position: relative
+      left: -2%
+      p
+        color: #12263F
+      @media screen and ( max-width: $bp-max-lg )
+        left: -3%
+      @media screen and ( max-width: $bp-max-sm )
+        left: -4%
