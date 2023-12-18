@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Estrategia de aprendizaje Estudio de caso',
     descripcionCurso:
-      'El estudio de casos es una estrategia didáctica de aprendizaje para favorecer el aprendizaje de competencias y para facilitar la relación entre la teoría y la práctica. En este anexo estudio de caso se describe su definición, los componentes, los pasos para resolver el caso, recomendaciones, las herramientas digitales que se pueden utilizar y algunos ejemplos, igualmente se incluyen los referentes bibliográficos correspondientes.',
+      'El estudio de caso es una estrategia didáctica de aprendizaje para favorecer el aprendizaje de competencias y para facilitar la relación entre la teoría y la práctica. En este anexo estudio de caso se describe su definición, los componentes, los pasos para resolver el caso, recomendaciones, las herramientas digitales que se pueden utilizar y algunos ejemplos, igualmente se incluyen los referentes bibliográficos correspondientes.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
@@ -56,7 +56,7 @@ export default {
           {
             numero: '1.5',
             titulo:
-              'Herramientas digitales se pueden utilizar para la elaboración de estudios de caso',
+              'Herramientas digitales que se pueden utilizar para la elaboración de estudios de caso',
             hash: 't_1_5',
           },
           {
@@ -64,17 +64,101 @@ export default {
             titulo: 'Ejemplo de estudio de caso',
             hash: 't_1_6',
           },
-          {
-            numero: '1.7',
-            titulo: 'Referentes Bibliográficos',
-            hash: 't_1_7',
-          },
         ],
       },
     ],
-    subMenu: [],
+    subMenu: [
+      {
+        icono: 'fas fa-book',
+        titulo: 'Referencias bibliográficas',
+        nombreRuta: 'referencias',
+      },
+      {
+        icono: 'fas fa-download',
+        titulo: 'Descargar PDF',
+        download: 'downloads/material.zip',
+      },
+      {
+        icono: 'fas fa-download',
+        titulo: 'Descargar material',
+        download: 'downloads/material.zip',
+      },
+      {
+        icono: 'far fa-registered',
+        titulo: 'Créditos',
+        nombreRuta: 'creditos',
+      },
+    ],
   },
-
+  referencias: [
+    {
+      referencia: 'Hitbullseye. (2023). Solved Case Studies. Hitbullseye.',
+      link: 'https://gdpi.hitbullseye.com/MBA/Example-of-Case-Study.php',
+    },
+    {
+      referencia:
+        'Tu Maestros. (2023). El estudio de caso como estrategia de aprendizaje.',
+      link:
+        ' https://tumaestros.co/el-estudio-de-casos-en-el-aula/#:~:text=El%20Estudio%20de%20caso%20como%20estrategia%20de%20aprendizaje%2C,para%20resolver%20el%20problema%20planteado%20en%20el%20caso',
+    },
+  ],
+  creditos: [
+    {
+      titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
+      autores: [
+        {
+          nombre: 'Claudia Patricia Aristizabal',
+          cargo: 'Responsable del Equipo',
+          centro: 'Dirección General',
+        },
+        {
+          nombre: 'Norma Constanza Morales Cruz',
+          cargo: 'Responsable de Línea de Producción',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+      ],
+    },
+    {
+      titulo: 'CONTENIDO INSTRUCCIONAL',
+      autores: [
+        {
+          nombre: 'Humberto Arias Díaz',
+          cargo: 'Diseñador Instruccional',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Maria Inés Machado López',
+          cargo: 'Asesor Metodológico',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+      ],
+    },
+    {
+      titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
+      autores: [
+        {
+          nombre: 'Oscar Iván Uribe Ortiz',
+          cargo: 'Diseñador web',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Francisco José Vásquez Suárez',
+          cargo: 'Desarrollador Fullstack',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+      ],
+    },
+    {
+      titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
+      autores: [
+        {
+          nombre: 'Jorge Bustos Gómez',
+          cargo: 'Validación y vinculación en plataforma LMS',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+      ],
+    },
+  ],
   creditosAdicionales: {
     imagenes:
       'Fotografías y vectores tomados de <a href="https://www.freepik.es/" target="_blank">www.freepik.es</a>, <a href="https://www.shutterstock.com/" target="_blank">www.shutterstock.com</a>, <a href="https://unsplash.com/" target="_blank">unsplash.com </a>y <a href="https://www.flaticon.com/" target="_blank">www.flaticon.com</a>',

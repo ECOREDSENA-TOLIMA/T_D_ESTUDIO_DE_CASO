@@ -46,6 +46,22 @@ const router = new VueRouter({
         },
       ],
     },
+    {
+      path: '/referencias',
+      name: 'referencias',
+      component: () =>
+        import(
+          /* webpackChunkName: "referencias" */ '../../node_modules/ecored-base-pkg/src/views/Referencias.vue'
+        ),
+    },
+    {
+      path: '/creditos',
+      name: 'creditos',
+      component: () =>
+        import(
+          /* webpackChunkName: "creditos" */ '../../node_modules/ecored-base-pkg/src/views/Creditos.vue'
+        ),
+    },
   ],
   scrollBehavior(to, from) {
     if (to.hash) {

@@ -43,7 +43,7 @@
       #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 1.2 Componentes del estudio de caso
   
-      p.mb-4 En un estudio de caso se compone de:  
+      p.mb-4 Un estudio de caso se compone por:
   
       ol.lista-ol--cuadro
         li 
@@ -146,7 +146,7 @@
       Separador 
   
       #t_1_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-        h2 1.5 Herramientas digitales se pueden utilizar para la elaboración de estudios de caso
+        h2 1.5 Herramientas digitales que se pueden utilizar para la elaboración de estudios de caso
   
       .row.justify-content-center.align-items-center.mb-5
         .col-10(data-aos="fade-down-right")
@@ -165,7 +165,7 @@
                   span Enlace web
                   i.fas.fa-file-code
   
-            .row(numero="2" titulo="Corrector Online")
+            .row(numero="2" titulo="Corrector <em>Online</em>")
               .col-md-12.mb-4.mb-md-0
                 p Revisión y mejora de gramática de textos
   
@@ -179,7 +179,7 @@
                   span Enlace web
                   i.fas.fa-file-code
   
-            .row(numero="3" titulo="Language Tool")
+            .row(numero="3" titulo="Language <em>Tool</em>")
               .col-md-12.mb-4.mb-md-0
                 p Revisión de ortografía y estilo
   
@@ -197,22 +197,26 @@
   
       #t_1_6.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 1.6 Ejemplo de estudio de caso
-  
-      .row.justify-content-center.align-items-center.mb-5
-        .col-10.col-md-10.col-lg-10.desktop(data-aos="fade-right")
-          .titulo-sexto.color-acento-contenido
-            p.titulo.pb-0.mb-0 #[b Figura 1.] <em>Estudio de caso con alternativas de solución</em>
-          figure
-            img.mb-3(src='@/assets/curso/temas/tema1/img-6-1.svg', alt='CASO CHEMCO: Fundada en 1965, ChemCo es un fabricante líder de baterías de automóvil en el mercado del Reino Unido. Desde entonces, ha estado a cargo del Sr. Jones, el fundador y propietario de la firma. En 1999, la empresa decidió apostar por la diversificación ampliando la línea de productos. El nuevo producto fueron baterías para carretillas elevadoras. Al mismo tiempo, el Sr. Marek fue nombrado vicepresidente senior de marketing de la empresa. Sin embargo, poco después de su exitosa diversificación hacia baterías para montacargas, las ventas en este segmento comenzaron a caer de manera constante. El Sr. Marek quería introducir algunos cambios radicales en la publicidad y la marca del nuevo negocio, pero el anticuado Sr. Jones rechazó la propuesta. En esta coyuntura en 2012, la empresa está perdiendo fuertemente en el negocio de baterías para montacargas y su participación en el mercado de baterías para automóviles también está disminuyendo. Jones le ha pedido a Marek que muestre un cambio de rumbo en la empresa dentro de un año. ¿Qué medidas debería tomar el Sr. Marek para sacar a la empresa de sus problemas?')
-            figcaption Nota. Tomado y adaptado de Solved Case Studies. Hitbullseye, 2017. https://gdpi.hitbullseye.com/MBA/Example-of-Case-Study.php
-  
-      .row.justify-content-center.align-items-center.mt-5.mb-2
-        .col-10.col-md-10.col-lg-10.movil(data-aos="fade-right")
-          .titulo-sexto.color-acento-contenido
-            p.titulo.pb-0.mb-0 #[b Figura 1.] <em>Estudio de caso con alternativas de solución</em>
-          figure
-            img(src='@/assets/curso/temas/tema1/img-6-2.svg', alt='CASO CHEMCO: Fundada en 1965, ChemCo es un fabricante líder de baterías de automóvil en el mercado del Reino Unido. Desde entonces, ha estado a cargo del Sr. Jones, el fundador y propietario de la firma. En 1999, la empresa decidió apostar por la diversificación ampliando la línea de productos. El nuevo producto fueron baterías para carretillas elevadoras. Al mismo tiempo, el Sr. Marek fue nombrado vicepresidente senior de marketing de la empresa. Sin embargo, poco después de su exitosa diversificación hacia baterías para montacargas, las ventas en este segmento comenzaron a caer de manera constante. El Sr. Marek quería introducir algunos cambios radicales en la publicidad y la marca del nuevo negocio, pero el anticuado Sr. Jones rechazó la propuesta. En esta coyuntura en 2012, la empresa está perdiendo fuertemente en el negocio de baterías para montacargas y su participación en el mercado de baterías para automóviles también está disminuyendo. Jones le ha pedido a Marek que muestre un cambio de rumbo en la empresa dentro de un año. ¿Qué medidas debería tomar el Sr. Marek para sacar a la empresa de sus problemas?') 
-            
+
+      p.mb-5 A continuaciòn se plantea un estudio de caso con alternativas de solución:    
+
+      .row.justify-content-center.align-items-center.mb-4
+        .col-10(data-aos="fade-down-right")
+          .tarjeta.tarjeta.p-4.mb-5.mt-0(style="background-color:#FAFFD7")(data-aos="flip-up")
+            .row.justify-content-center.align-items-center 
+              .col-md-7.mb-3
+                h3 CASO CHEMCO
+                p Fundada en 1965, CHEMCO es un fabricante líder de baterías de automóvil en el mercado del Reino Unido. Desde entonces, ha estado a cargo del Sr. Jones, el fundador y propietario de la firma. En 1999, la empresa decidió apostar por la diversificación ampliando la línea de productos. El nuevo producto fueron baterías para carretillas elevadoras. Al mismo tiempo, el Sr. Marek fue nombrado vicepresidente senior de marketing de la empresa. Sin embargo, poco después de su exitosa diversificación hacia baterías para montacargas, las ventas en este segmento comenzaron a caer de manera constante. El Sr. Marek quería introducir algunos cambios radicales en la publicidad y la marca del nuevo negocio, pero el anticuado Sr. Jones rechazó la propuesta. 
+      
+              .col-md-4
+                figure
+                  img(src='@/assets/curso/temas/tema1/img-7.svg', alt='Imagen decorativa')
+
+          .tarjeta.tarjeta.p-4.mb-5.mt-0(style="background-color:#CDF5E2")(data-aos="flip-up")
+            .row.justify-content-center.align-items-center 
+              .col-md-12.mb-0
+                p En esta coyuntura en 2012, la empresa está perdiendo fuertemente en el negocio de baterías para montacargas y su participación en el mercado de baterías para automóviles también está disminuyendo. Jones le ha pedido a Marek que muestre un cambio de rumbo en la empresa dentro de un año. <strong>¿Qué medidas debería tomar el Sr. Marek para sacar a la empresa de sus problemas?</strong>
+
       .row.align-items-center.mb-4
         .col-auto.pe-0(style="z-index:2")
           figure
@@ -268,32 +272,7 @@
   
       p.mb-5 En este caso se recomienda la alternativa 1. Dado que la empresa opera en una industria que tiene un bajo crecimiento, por lo tanto, puede expandir la participación de mercado y las ventas solo tomando los clientes de otros jugadores. Por lo tanto, debe enfrentar al competidor español de frente fijando un precio agresivo para su producto. Al mismo tiempo, el lanzamiento de un producto de bajo precio con la misma marca erosiona la imagen de alta calidad en el mercado de baterías para automóviles. Por lo tanto, la mejor opción es optar por una marca fuera de la marca para apuntar a los clientes de montacargas que son cada vez más sensibles a los precios. Esto permitirá a la empresa protegerse de la amenaza a corto plazo y fortalecer su posición a largo plazo.
   
-      Separador 
-  
-      #t_1_7.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-        h2 1.7 Referentes Bibliográficos 
-  
-      .row.align-items-center.mb-4
-        .col-auto.pe-0(style="z-index:2")
-          figure
-            img(src='@/assets/curso/temas/icono2.png', style="width: 15px" ,alt='').m-auto
-        .col-auto.bg-c9(style="z-index:1")
-          .p-2
-            p.mb-0.ms-3 Hitbullseye. (2023). Solved Case Studies. Hitbullseye.
-        
-        <a href="https://gdpi.hitbullseye.com/MBA/Example-of-Case-Study.php" target="_blank" class="link-primary">https://gdpi.hitbullseye.com/MBA/Example-of-Case-Study.php</a>
       
-      .row.align-items-center.mb-4
-        .col-auto.pe-0(style="z-index:2")
-          figure
-            img(src='@/assets/curso/temas/icono2.png', style="width: 15px" ,alt='').m-auto
-        .col-auto.bg-c9(style="z-index:1")
-          .p-2
-            p.mb-0.ms-3 Tu Maestros. (2023). El estudio de caso como estrategia de aprendizaje.
-        
-        <a href=" https://tumaestros.co/el-estudio-de-casos-en-el-aula/#:~:text=El%20Estudio%20de%20caso%20como%20estrategia%20de%20aprendizaje%2C,para%20resolver%20el%20problema%20planteado%20en%20el%20caso" target="_blank" class="link-primary"> https://tumaestros.co/el-estudio-de-casos-en-el-aula/#:~:text=El%20Estudio%20de%20caso%20como%20estrategia%20de%20aprendizaje%2C,para%20resolver%20el%20problema%20planteado%20en%20el%20caso</a>
-              
-  
       
   </template>
 
