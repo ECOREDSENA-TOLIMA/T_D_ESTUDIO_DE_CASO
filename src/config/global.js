@@ -76,7 +76,7 @@ export default {
       {
         icono: 'fas fa-download',
         titulo: 'Descargar PDF',
-        download: 'downloads/material.zip',
+        download: 'downloads/estudio_caso.pdf',
       },
       {
         icono: 'fas fa-download',
